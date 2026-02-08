@@ -29,23 +29,23 @@ export const features = [
 export const programs = [
   {
     id: 1,
+    title: "Teknisi Ponsel (Hardware & Software)",
+    description: "Kuasai teknik perbaikan hardware dan software ponsel terkini, mulai dari troubleshooting dasar hingga teknik soldering tingkat lanjut.",
+    icon: Monitor, // Using Monitor as a placeholder or could use a Smartphone icon if available, but Monitor works for technical
+    gradient: "from-blue-600 to-blue-800"
+  },
+  {
+    id: 2,
     title: "Web Development",
     description: "Kuasai HTML, CSS, JavaScript, hingga React dan Node.js untuk menjadi Fullstack Developer handal.",
     icon: Code,
     gradient: "from-blue-600 to-blue-800"
   },
   {
-    id: 2,
+    id: 3,
     title: "Digital Marketing",
     description: "Pelajari strategi pemasaran digital, SEO, SEM, dan Social Media Management untuk bisnis modern.",
     icon: Megaphone,
-    gradient: "from-blue-600 to-blue-800"
-  },
-  {
-    id: 3,
-    title: "Desain Grafis",
-    description: "Kembangkan kreativitas visual dengan Adobe Photoshop, Illustrator, dan prinsip desain profesional.",
-    icon: PenTool, // Using PenTool as generic design icon
     gradient: "from-orange-500 to-orange-600"
   }
 ];

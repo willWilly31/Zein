@@ -6,9 +6,9 @@ export function CTA() {
       <div className="container mx-auto px-4 md:px-6">
         <div className="relative rounded-[2.5rem] overflow-hidden bg-secondary">
           {/* Background Image Overlay */}
-          <div className="absolute inset-0">
+            <div className="absolute inset-0">
             <img 
-              src="/images/office-bg.png" 
+              src="/images/technician.png" 
               alt="Background" 
               className="w-full h-full object-cover opacity-20 mix-blend-multiply"
             />
